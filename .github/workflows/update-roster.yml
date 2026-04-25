@@ -1,0 +1,50 @@
+name: Update Roster Daily
+
+on:
+  schedule:
+    # Run at midnight EST (5am UTC) daily until end of May
+    - cron: '0 5 * * *'
+  workflow_dispatch: # Allow manual trigger
+
+jobs:
+  update-roster:
+    runs-on: ubuntu-latest
+    
+    # Only run until May 31, 2026
+    if: github.event_name == 'workflow_dispatch' || (github.event.schedule && toJSON(github.event.schedule) < '2026-06-01')
+    
+    steps:
+      - name: Checkout repo
+        uses: actions/checkout@v4
+      
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+      
+      - name: Install dependencies
+        run: |
+          npm install
+          npm install puppeteer
+      
+      - name: Scrape roster
+        run: node scripts/scrape-roster.js
+      
+      - name: Check for changes
+        id: changes
+        run: |
+          if git diff --quiet src/App.jsx; then
+            echo "changed=false" >> $GITHUB_OUTPUT
+          else
+            echo "changed=true" >> $GITHUB_OUTPUT
+          fi
+      
+      - name: Commit and push if changed
+        if: steps.changes.outputs.changed == 'true'
+        run: |
+          git config user.name "Roster Bot"
+          git config user.email "bot@github-actions"
+          git add src/App.jsx
+          CHANGES=$(git diff --cached --numstat src/App.jsx | awk '{print $1 + $2}')
+          git commit -m "Update roster - $CHANGES changes detected"
+          git push
