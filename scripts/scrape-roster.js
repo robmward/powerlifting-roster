@@ -83,7 +83,7 @@ async function scrapeRoster() {
       
       if (existing) {
         return {
-          name: scraped.name,
+          name: existing.name, // Preserve custom names (Rob Ward, not Robert Ward)
           state: scraped.state,
           wc: scraped.wc,
           cat: scraped.cat,
