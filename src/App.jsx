@@ -753,6 +753,7 @@ export default function PowerliftingRoster() {
   const [sortDir, setSortDir] = useState("asc");
   const [showZero, setShowZero] = useState(true);
   const [genderFilter, setGenderFilter] = useState("All");
+  const [isInitialRender, setIsInitialRender] = useState(true);
 
   const allDivisions = useMemo(() => {
     const divs = [...new Set(ROSTER.map(r => r.div))].filter(Boolean);
@@ -783,6 +784,20 @@ export default function PowerliftingRoster() {
       data = data.filter(r => r.name.toLowerCase().includes(s) || r.state.toLowerCase().includes(s));
     }
     data.sort((a, b) => {
+      // Easter egg: Rob and Jen at top on initial page load only
+      if (isInitialRender) {
+        const isRobA = a.name === "Robert Ward";
+        const isRobB = b.name === "Robert Ward";
+        const isJenA = a.name === "Jennifer Sauter";
+        const isJenB = b.name === "Jennifer Sauter";
+        
+        if (isRobA) return -1;
+        if (isRobB) return 1;
+        if (isJenA) return -1;
+        if (isJenB) return 1;
+      }
+      
+      // Normal sorting
       let va = a[sortCol], vb = b[sortCol];
       if (typeof va === "string") va = va.toLowerCase();
       if (typeof vb === "string") vb = vb.toLowerCase();
@@ -795,9 +810,10 @@ export default function PowerliftingRoster() {
       return 0;
     });
     return data;
-  }, [divFilter, wcFilter, catFilter, genderFilter, showZero, searchTerm, sortCol, sortDir]);
+  }, [divFilter, wcFilter, catFilter, genderFilter, showZero, searchTerm, sortCol, sortDir, isInitialRender]);
 
   const handleSort = (col) => {
+    setIsInitialRender(false); // Turn off joke mode
     if (sortCol === col) setSortDir(d => d === "asc" ? "desc" : "asc");
     else { setSortCol(col); setSortDir(col === "total" ? "desc" : "asc"); }
   };
@@ -899,20 +915,20 @@ export default function PowerliftingRoster() {
           gap: 10,
           marginBottom: 14,
         }}>
-          <FilterSelect label="Division" value={divFilter} onChange={setDivFilter}
+          <FilterSelect label="Division" value={divFilter} onChange={(v) => { setIsInitialRender(false); setDivFilter(v); }}
             options={[{v:"All",l:"All Divisions"}, ...allDivisions.map(d => ({v:d, l:`${d} — ${DIV_LABELS[d]||d}`}))]} />
-          <FilterSelect label="Gender" value={genderFilter} onChange={(v) => { setGenderFilter(v); setWcFilter("All"); }}
+          <FilterSelect label="Gender" value={genderFilter} onChange={(v) => { setIsInitialRender(false); setGenderFilter(v); setWcFilter("All"); }}
             options={[{v:"All",l:"All"},{v:"M",l:"Male"},{v:"F",l:"Female"}]} />
-          <FilterSelect label="Weight Class" value={wcFilter} onChange={setWcFilter}
+          <FilterSelect label="Weight Class" value={wcFilter} onChange={(v) => { setIsInitialRender(false); setWcFilter(v); }}
             options={[{v:"All",l:"All Classes"}, ...weightClasses.map(w => ({v:w, l:w}))]} />
-          <FilterSelect label="Category" value={catFilter} onChange={setCatFilter}
+          <FilterSelect label="Category" value={catFilter} onChange={(v) => { setIsInitialRender(false); setCatFilter(v); }}
             options={[{v:"All",l:"All"},{v:"Raw",l:"Raw"},{v:"Equipped",l:"Equipped"}]} />
         </div>
         <div style={{display:"flex", gap:12, marginBottom:16, alignItems:"center", flexWrap:"wrap"}}>
           <div style={{position:"relative", flex:"1 1 200px", maxWidth:320}}>
             <input
               type="text" placeholder="Search by name or state..."
-              value={searchTerm} onChange={e => setSearchTerm(e.target.value)}
+              value={searchTerm} onChange={e => { setIsInitialRender(false); setSearchTerm(e.target.value); }}
               style={{
                 width:"100%", background:"#14141a", border:"1px solid #2a2a30", borderRadius:6,
                 padding:"9px 12px 9px 34px", color:"#e8e6e1", fontSize:14,
