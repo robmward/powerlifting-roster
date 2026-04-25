@@ -142,8 +142,8 @@ async function scrapeRoster() {
     });
     
     const updatedContent = newAppContent.replace(
-      /Roster data was pulled on [^<]+/,
-      `Roster data was pulled on ${dateStr}`
+      /Roster data was pulled on <strong[^>]*>([^<]+)<\/strong>/,
+      `Roster data was pulled on <strong style={{color:"#fff"}}>${dateStr}</strong>`
     );
     
     fs.writeFileSync(appPath, updatedContent);
