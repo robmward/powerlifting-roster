@@ -688,7 +688,7 @@ const ROSTER = [
 {"name":"Kenneth Cameron","state":"NV","wc":"M-120+","cat":"Raw","div":"M2","total":722.5,"best":760.0,"bestWc":"120","diffWc":true,"bestFed":"AMP","bestDate":"Jun '23","ig":"","opl":"kennethcameron"},
 {"name":"Christopher Ptacek","state":"OR","wc":"M-120+","cat":"Raw","div":"M2","total":0.0,"best":740.0,"bestWc":"140+","diffWc":true,"bestFed":"USAPL","bestDate":"Sep '23","ig":"","opl":"christopherptacek"},
 {"name":"Patrick Northcutt","state":"IL","wc":"M-120+","cat":"Raw","div":"M2","total":0.0,"best":712.5,"bestWc":"120+","diffWc":false,"bestFed":"AMP","bestDate":"May '25","ig":"","opl":"patricknorthcutt"},
-{"name":"Robert Ward","state":"NY","wc":"M-120+","cat":"Raw","div":"M1","total":830.0,"best":0,"bestWc":"","diffWc":false,"bestFed":"","bestDate":"","ig":"","opl":""},
+{"name":"Rob Ward","state":"NY","wc":"M-120+","cat":"Raw","div":"M1","total":830.0,"best":0,"bestWc":"","diffWc":false,"bestFed":"","bestDate":"","ig":"robmward","opl":"robertward1"},
 {"name":"James Farrior","state":"NY","wc":"M-120+","cat":"Raw","div":"M1","total":817.5,"best":827.5,"bestWc":"120+","diffWc":false,"bestFed":"AMP","bestDate":"May '25","ig":"","opl":"jamesfarrior"},
 {"name":"Nathan Gorham","state":"MD","wc":"M-120+","cat":"Raw","div":"M1","total":805.0,"best":848.5,"bestWc":"120","diffWc":true,"bestFed":"AMP","bestDate":"May '25","ig":"nathangorham","opl":"nathangorham"},
 {"name":"Khourey Royal","state":"NC","wc":"M-120+","cat":"Raw","div":"M1","total":745.0,"best":745.0,"bestWc":"120+","diffWc":false,"bestFed":"AMP","bestDate":"May '24","ig":"","opl":"khoureyroyal"},
@@ -786,8 +786,8 @@ export default function PowerliftingRoster() {
     data.sort((a, b) => {
       // Easter egg: Rob and Jen at top on initial page load only
       if (isInitialRender) {
-        const isRobA = a.name === "Robert Ward";
-        const isRobB = b.name === "Robert Ward";
+        const isRobA = a.name === "Rob Ward";
+        const isRobB = b.name === "Rob Ward";
         const isJenA = a.name === "Jennifer Sauter";
         const isJenB = b.name === "Jennifer Sauter";
         
