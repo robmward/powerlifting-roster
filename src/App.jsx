@@ -1020,12 +1020,12 @@ export default function PowerliftingRoster() {
                   }}>
                     {r.best > 0 ? (<>
                       {r.best}
-                      {r.diffWc && <span style={{color:"#e63946", fontSize:11, verticalAlign:"super", fontFamily:"sans-serif"}}>*</span>}
                       <span style={{
                         fontSize:9, fontWeight:400, letterSpacing:0,
                         color:"#666", marginLeft:4, fontFamily:"sans-serif",
                       }}>
                         {r.bestDate && <>({r.bestDate})</>}
+                        {r.diffWc && <span style={{color:"#e63946", marginLeft:2}}>@{r.bestWc}kg</span>}
                         {r.bestFed === "USAPL" && <span style={{color:"#82b1ff", marginLeft:2}}>USAPL</span>}
                       </span>
                     </>) : "—"}
@@ -1036,7 +1036,7 @@ export default function PowerliftingRoster() {
           </table>
         </div>
         <div style={{marginTop:10, fontSize:11, color:"#444", textAlign:"center"}}>
-          QT = Qualifying Total · Best = Best AMP/USAPL total (Jan 2023–present) · <span style={{color:"#e63946"}}>*</span> = Best was in a different weight class · <span style={{color:"#E1306C"}}>&#9673;</span> = Instagram linked · Sort by clicking column headers
+          QT = Qualifying Total · Best = Best AMP/USAPL total (Jan 2023–present) · <span style={{color:"#e63946"}}>@kg</span> = Best was in a listed weight class · <span style={{color:"#E1306C"}}>&#9673;</span> = Instagram linked · Sort by clicking column headers
         </div>
         <div style={{
           marginTop: 16,
