@@ -75,8 +75,11 @@ async function scrapeRoster() {
     
     // Merge: update QTs from scraped data, preserve everything else
     const mergedRoster = rosterData.map(scraped => {
+      // Special handling: "Robert Ward" from PA = "Rob Ward" in our data
+      const scrapedNameNormalized = scraped.name === "Robert Ward" ? "Rob Ward" : scraped.name;
+      
       const existing = currentRoster.find(c => 
-        c.name === scraped.name && 
+        c.name === scrapedNameNormalized && 
         c.wc === scraped.wc && 
         c.cat === scraped.cat
       );
