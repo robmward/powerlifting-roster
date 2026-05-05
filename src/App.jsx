@@ -32,7 +32,7 @@ const ROSTER = [
 {"name":"Nyeli Arispe","state":"TX","wc":"F-52","cat":"Equipped","div":"SJ","total":320,"best":0,"bestWc":"","diffWc":false,"bestFed":"","bestDate":"","ig":"","opl":""},
 {"name":"Abcde Mata","state":"TX","wc":"F-52","cat":"Equipped","div":"SJ","total":297.5,"best":0,"bestWc":"","diffWc":false,"bestFed":"","bestDate":"","ig":"","opl":""},
 {"name":"Noemi Blancarte","state":"LA","wc":"F-52","cat":"Equipped","div":"SJ","total":0,"best":0,"bestWc":"","diffWc":false,"bestFed":"","bestDate":"","ig":"","opl":""},
-{"name":"Dora Justice","state":"TX","wc":"F-57","cat":"Raw","div":"M3","total":273.5,"best":0,"bestWc":"","diffWc":false,"bestFed":"","bestDate":"","ig":"","opl":""},
+{"name":"Dora Justice","state":"--","wc":"F-57","cat":"Raw","div":"M3","total":273.5,"best":0,"bestWc":"","diffWc":false,"bestFed":"","bestDate":"","ig":"","opl":""},
 {"name":"Kathleen Casper","state":"MN","wc":"F-57","cat":"Raw","div":"M3","total":222.5,"best":0,"bestWc":"","diffWc":false,"bestFed":"","bestDate":"","ig":"","opl":""},
 {"name":"Janice Woerner","state":"NY","wc":"F-57","cat":"Raw","div":"M3","total":75,"best":0,"bestWc":"","diffWc":false,"bestFed":"","bestDate":"","ig":"","opl":""},
 {"name":"Loraine Efron","state":"TX","wc":"F-57","cat":"Raw","div":"M3","total":75,"best":0,"bestWc":"","diffWc":false,"bestFed":"","bestDate":"","ig":"","opl":""},
@@ -205,7 +205,7 @@ const ROSTER = [
 {"name":"Lilyan Jackson","state":"TX","wc":"F-84+","cat":"Raw","div":"M2","total":492.5,"best":0,"bestWc":"","diffWc":false,"bestFed":"","bestDate":"","ig":"","opl":""},
 {"name":"Lori Sousa","state":"FL","wc":"F-84+","cat":"Raw","div":"M2","total":327.5,"best":0,"bestWc":"","diffWc":false,"bestFed":"","bestDate":"","ig":"","opl":""},
 {"name":"Shanti Murphy - Mem. Error","state":"--","wc":"F-84+","cat":"Raw","div":"M2","total":315,"best":0,"bestWc":"","diffWc":false,"bestFed":"","bestDate":"","ig":"","opl":""},
-{"name":"Melissa Copeland","state":"--","wc":"F-84+","cat":"Raw","div":"M1","total":575.5,"best":0,"bestWc":"","diffWc":false,"bestFed":"","bestDate":"","ig":"","opl":""},
+{"name":"Melissa Copeland","state":"MD","wc":"F-84+","cat":"Raw","div":"M1","total":575.5,"best":0,"bestWc":"","diffWc":false,"bestFed":"","bestDate":"","ig":"","opl":""},
 {"name":"Emily Douglas","state":"MD","wc":"F-84+","cat":"Raw","div":"M1","total":517.5,"best":0,"bestWc":"","diffWc":false,"bestFed":"","bestDate":"","ig":"","opl":""},
 {"name":"Allison White","state":"VA","wc":"F-84+","cat":"Raw","div":"M1","total":515,"best":0,"bestWc":"","diffWc":false,"bestFed":"","bestDate":"","ig":"","opl":""},
 {"name":"Tiffany Miranda","state":"NC","wc":"F-84+","cat":"Raw","div":"M1","total":367.5,"best":0,"bestWc":"","diffWc":false,"bestFed":"","bestDate":"","ig":"","opl":""},
@@ -271,7 +271,7 @@ const ROSTER = [
 {"name":"Richard Flaum","state":"TX","wc":"M-66","cat":"Raw","div":"M4","total":257.5,"best":0,"bestWc":"","diffWc":false,"bestFed":"","bestDate":"","ig":"","opl":""},
 {"name":"Jay Thompson","state":"NC","wc":"M-66","cat":"Raw","div":"M3","total":475,"best":0,"bestWc":"","diffWc":false,"bestFed":"","bestDate":"","ig":"","opl":""},
 {"name":"Michael Feldhaus","state":"OH","wc":"M-66","cat":"Raw","div":"M3","total":75,"best":0,"bestWc":"","diffWc":false,"bestFed":"","bestDate":"","ig":"","opl":""},
-{"name":"Rick Brink","state":"CO","wc":"M-66","cat":"Raw","div":"M2","total":522.5,"best":0,"bestWc":"","diffWc":false,"bestFed":"","bestDate":"","ig":"","opl":""},
+{"name":"Rick Brink - Mem. Error","state":"--","wc":"M-66","cat":"Raw","div":"M2","total":522.5,"best":0,"bestWc":"","diffWc":false,"bestFed":"","bestDate":"","ig":"","opl":""},
 {"name":"Ron Brinker","state":"OH","wc":"M-66","cat":"Raw","div":"M2","total":497.5,"best":0,"bestWc":"","diffWc":false,"bestFed":"","bestDate":"","ig":"","opl":""},
 {"name":"An Nguyen","state":"CA","wc":"M-66","cat":"Raw","div":"M1","total":580,"best":0,"bestWc":"","diffWc":false,"bestFed":"","bestDate":"","ig":"","opl":""},
 {"name":"Shawn Frasquillo","state":"TX","wc":"M-66","cat":"Raw","div":"M1","total":580,"best":0,"bestWc":"","diffWc":false,"bestFed":"","bestDate":"","ig":"","opl":""},
@@ -328,9 +328,8 @@ const ROSTER = [
 {"name":"Thomas Ashbrook","state":"CA","wc":"M-74","cat":"Raw","div":"M3","total":485,"best":0,"bestWc":"","diffWc":false,"bestFed":"","bestDate":"","ig":"","opl":""},
 {"name":"Robert Lane","state":"WA","wc":"M-74","cat":"Raw","div":"M2","total":602.5,"best":0,"bestWc":"","diffWc":false,"bestFed":"","bestDate":"","ig":"","opl":""},
 {"name":"Patrick Foster","state":"PA","wc":"M-74","cat":"Raw","div":"M2","total":480,"best":0,"bestWc":"","diffWc":false,"bestFed":"","bestDate":"","ig":"","opl":""},
-{"name":"Matthew Chapman","state":"VA","wc":"M-74","cat":"Raw","div":"M2","total":400,"best":0,"bestWc":"","diffWc":false,"bestFed":"","bestDate":"","ig":"","opl":""},
 {"name":"Donald Bigham","state":"SC","wc":"M-74","cat":"Raw","div":"M2","total":75,"best":0,"bestWc":"","diffWc":false,"bestFed":"","bestDate":"","ig":"","opl":""},
-{"name":"Carlos Mata","state":"TX","wc":"M-74","cat":"Raw","div":"M1","total":667.5,"best":0,"bestWc":"","diffWc":false,"bestFed":"","bestDate":"","ig":"","opl":""},
+{"name":"Carlos Mata","state":"--","wc":"M-74","cat":"Raw","div":"M1","total":667.5,"best":0,"bestWc":"","diffWc":false,"bestFed":"","bestDate":"","ig":"","opl":""},
 {"name":"Michael Haran","state":"MD","wc":"M-74","cat":"Raw","div":"M1","total":642.5,"best":0,"bestWc":"","diffWc":false,"bestFed":"","bestDate":"","ig":"","opl":""},
 {"name":"Lee Rogers","state":"NH","wc":"M-74","cat":"Raw","div":"M1","total":510,"best":0,"bestWc":"","diffWc":false,"bestFed":"","bestDate":"","ig":"","opl":""},
 {"name":"Due Nguyen","state":"NY","wc":"M-74","cat":"Raw","div":"M1","total":457.5,"best":0,"bestWc":"","diffWc":false,"bestFed":"","bestDate":"","ig":"","opl":""},
@@ -555,12 +554,12 @@ const ROSTER = [
 {"name":"Brennan Jarrell","state":"LA","wc":"M-93","cat":"Equipped","div":"SJ","total":542.5,"best":0,"bestWc":"","diffWc":false,"bestFed":"","bestDate":"","ig":"","opl":""},
 {"name":"Jerry Contreras","state":"TX","wc":"M-93","cat":"Equipped","div":"SJ","total":475,"best":0,"bestWc":"","diffWc":false,"bestFed":"","bestDate":"","ig":"","opl":""},
 {"name":"Thomas Killam","state":"LA","wc":"M-93","cat":"Equipped","div":"SJ","total":0,"best":0,"bestWc":"","diffWc":false,"bestFed":"","bestDate":"","ig":"","opl":""},
-{"name":"John Engebretson","state":"MA","wc":"M-105","cat":"Raw","div":"SO","total":605,"best":0,"bestWc":"","diffWc":false,"bestFed":"","bestDate":"","ig":"","opl":""},
+{"name":"John Engebretson","state":"MA","wc":"M-105","cat":"Raw","div":"SA","total":605,"best":0,"bestWc":"","diffWc":false,"bestFed":"","bestDate":"","ig":"","opl":""},
 {"name":"Dion Thomas","state":"GA","wc":"M-105","cat":"Raw","div":"SO","total":462.5,"best":0,"bestWc":"","diffWc":false,"bestFed":"","bestDate":"","ig":"","opl":""},
 {"name":"Dave Schneider","state":"OH","wc":"M-105","cat":"Raw","div":"M4","total":490,"best":0,"bestWc":"","diffWc":false,"bestFed":"","bestDate":"","ig":"","opl":""},
 {"name":"Michael Lobb","state":"OR","wc":"M-105","cat":"Raw","div":"M4","total":480,"best":0,"bestWc":"","diffWc":false,"bestFed":"","bestDate":"","ig":"","opl":""},
 {"name":"Jeff Olsen","state":"WA","wc":"M-105","cat":"Raw","div":"M3","total":600,"best":0,"bestWc":"","diffWc":false,"bestFed":"","bestDate":"","ig":"","opl":""},
-{"name":"John Wetter","state":"--","wc":"M-105","cat":"Raw","div":"M3","total":545,"best":0,"bestWc":"","diffWc":false,"bestFed":"","bestDate":"","ig":"","opl":""},
+{"name":"John Wetter","state":"CA","wc":"M-105","cat":"Raw","div":"M3","total":545,"best":0,"bestWc":"","diffWc":false,"bestFed":"","bestDate":"","ig":"","opl":""},
 {"name":"Peter Severenuk","state":"NJ","wc":"M-105","cat":"Raw","div":"M3","total":455,"best":0,"bestWc":"","diffWc":false,"bestFed":"","bestDate":"","ig":"","opl":""},
 {"name":"Jeffrey Fellows","state":"OR","wc":"M-105","cat":"Raw","div":"M3","total":437.5,"best":0,"bestWc":"","diffWc":false,"bestFed":"","bestDate":"","ig":"","opl":""},
 {"name":"Egan Walker","state":"NV","wc":"M-105","cat":"Raw","div":"M3","total":0,"best":0,"bestWc":"","diffWc":false,"bestFed":"","bestDate":"","ig":"","opl":""},
@@ -647,7 +646,7 @@ const ROSTER = [
 {"name":"Jacob Breckinridge","state":"PA","wc":"M-120","cat":"Raw","div":"J","total":810,"best":0,"bestWc":"","diffWc":false,"bestFed":"","bestDate":"","ig":"","opl":""},
 {"name":"Tanner Newman","state":"OK","wc":"M-120","cat":"Raw","div":"J","total":807.5,"best":0,"bestWc":"","diffWc":false,"bestFed":"","bestDate":"","ig":"","opl":""},
 {"name":"Ty Morawski","state":"OH","wc":"M-120","cat":"Raw","div":"J","total":770,"best":0,"bestWc":"","diffWc":false,"bestFed":"","bestDate":"","ig":"","opl":""},
-{"name":"Nicolas Hawke - Mem. Error","state":"--","wc":"M-120","cat":"Raw","div":"J","total":760,"best":0,"bestWc":"","diffWc":false,"bestFed":"","bestDate":"","ig":"","opl":""},
+{"name":"Nicolas Hawke","state":"CA","wc":"M-120","cat":"Raw","div":"J","total":760,"best":0,"bestWc":"","diffWc":false,"bestFed":"","bestDate":"","ig":"","opl":""},
 {"name":"Chancellor Buford","state":"TX","wc":"M-120","cat":"Raw","div":"J","total":760,"best":0,"bestWc":"","diffWc":false,"bestFed":"","bestDate":"","ig":"","opl":""},
 {"name":"Aidan Wilder","state":"TX","wc":"M-120","cat":"Raw","div":"J","total":755,"best":0,"bestWc":"","diffWc":false,"bestFed":"","bestDate":"","ig":"","opl":""},
 {"name":"Gilberto Villarreal","state":"CA","wc":"M-120","cat":"Raw","div":"J","total":750,"best":0,"bestWc":"","diffWc":false,"bestFed":"","bestDate":"","ig":"","opl":""},
@@ -675,7 +674,7 @@ const ROSTER = [
 {"name":"Tyler Halpert","state":"GA","wc":"M-120+","cat":"Raw","div":"SO","total":417.5,"best":0,"bestWc":"","diffWc":false,"bestFed":"","bestDate":"","ig":"","opl":""},
 {"name":"Luke Bergeron","state":"LA","wc":"M-120+","cat":"Raw","div":"SO","total":287.5,"best":0,"bestWc":"","diffWc":false,"bestFed":"","bestDate":"","ig":"","opl":""},
 {"name":"Mark Branham","state":"IN","wc":"M-120+","cat":"Raw","div":"M4","total":360,"best":0,"bestWc":"","diffWc":false,"bestFed":"","bestDate":"","ig":"","opl":""},
-{"name":"Domenick Fonio","state":"PA","wc":"M-120+","cat":"Raw","div":"M3","total":0,"best":0,"bestWc":"","diffWc":false,"bestFed":"","bestDate":"","ig":"","opl":""},
+{"name":"Domenick Fonio","state":"--","wc":"M-120+","cat":"Raw","div":"M3","total":0,"best":0,"bestWc":"","diffWc":false,"bestFed":"","bestDate":"","ig":"","opl":""},
 {"name":"Kenneth Cameron","state":"NV","wc":"M-120+","cat":"Raw","div":"M2","total":730,"best":0,"bestWc":"","diffWc":false,"bestFed":"","bestDate":"","ig":"","opl":""},
 {"name":"Christopher Ptacek","state":"OR","wc":"M-120+","cat":"Raw","div":"M2","total":725,"best":0,"bestWc":"","diffWc":false,"bestFed":"","bestDate":"","ig":"","opl":""},
 {"name":"Patrick Northcutt - Mem. Error","state":"--","wc":"M-120+","cat":"Raw","div":"M2","total":712.5,"best":0,"bestWc":"","diffWc":false,"bestFed":"","bestDate":"","ig":"","opl":""},
@@ -686,7 +685,6 @@ const ROSTER = [
 {"name":"Khourey Royal","state":"NC","wc":"M-120+","cat":"Raw","div":"M1","total":745,"best":0,"bestWc":"","diffWc":false,"bestFed":"","bestDate":"","ig":"","opl":""},
 {"name":"Valente Inniss-Thompson","state":"TX","wc":"M-120+","cat":"Raw","div":"M1","total":717.5,"best":0,"bestWc":"","diffWc":false,"bestFed":"","bestDate":"","ig":"","opl":""},
 {"name":"Henry Coates","state":"OR","wc":"M-120+","cat":"Raw","div":"M1","total":632.5,"best":0,"bestWc":"","diffWc":false,"bestFed":"","bestDate":"","ig":"","opl":""},
-{"name":"Jack Bartlett","state":"ID","wc":"M-120+","cat":"Raw","div":"J","total":830,"best":0,"bestWc":"","diffWc":false,"bestFed":"","bestDate":"","ig":"","opl":""},
 {"name":"Jose Lugo","state":"TX","wc":"M-120+","cat":"Raw","div":"J","total":817.5,"best":0,"bestWc":"","diffWc":false,"bestFed":"","bestDate":"","ig":"","opl":""},
 {"name":"Uriel Perez - Mem. Error","state":"--","wc":"M-120+","cat":"Raw","div":"J","total":780,"best":0,"bestWc":"","diffWc":false,"bestFed":"","bestDate":"","ig":"","opl":""},
 {"name":"Jordan Blincoe","state":"NY","wc":"M-120+","cat":"Raw","div":"J","total":762.5,"best":0,"bestWc":"","diffWc":false,"bestFed":"","bestDate":"","ig":"","opl":""},
@@ -697,7 +695,6 @@ const ROSTER = [
 {"name":"Andrew Gonzalez","state":"CA","wc":"M-120+","cat":"Raw","div":"SJ","total":715,"best":0,"bestWc":"","diffWc":false,"bestFed":"","bestDate":"","ig":"","opl":""},
 {"name":"Omar Kalo","state":"CA","wc":"M-120+","cat":"Raw","div":"SJ","total":630,"best":0,"bestWc":"","diffWc":false,"bestFed":"","bestDate":"","ig":"","opl":""},
 {"name":"Robert Keller","state":"FL","wc":"M-120+","cat":"Equipped","div":"M3","total":270,"best":0,"bestWc":"","diffWc":false,"bestFed":"","bestDate":"","ig":"","opl":""},
-{"name":"Steve Davenport","state":"NE","wc":"M-120+","cat":"Equipped","div":"M2","total":710,"best":0,"bestWc":"","diffWc":false,"bestFed":"","bestDate":"","ig":"","opl":""},
 {"name":"Douglas Rawson","state":"NV","wc":"M-120+","cat":"Equipped","div":"M2","total":617.5,"best":0,"bestWc":"","diffWc":false,"bestFed":"","bestDate":"","ig":"","opl":""},
 {"name":"Andrew Cargill - Mem. Error","state":"--","wc":"M-120+","cat":"Equipped","div":"M1","total":907.5,"best":0,"bestWc":"","diffWc":false,"bestFed":"","bestDate":"","ig":"","opl":""},
 {"name":"Michael Jean Sr.","state":"FL","wc":"M-120+","cat":"Equipped","div":"M1","total":785,"best":0,"bestWc":"","diffWc":false,"bestFed":"","bestDate":"","ig":"","opl":""},
@@ -716,10 +713,13 @@ const ROSTER = [
 {"name":"John Demchak","state":"SC","wc":"Out","cat":"Raw","div":"M2","total":530,"best":0,"bestWc":"","diffWc":false,"bestFed":"","bestDate":"","ig":"","opl":""},
 {"name":"Cynthia Browning","state":"IN","wc":"Out","cat":"Raw","div":"M2","total":439.5,"best":0,"bestWc":"","diffWc":false,"bestFed":"","bestDate":"","ig":"","opl":""},
 {"name":"Stephanie Carpenter","state":"ID","wc":"Out","cat":"Raw","div":"M2","total":427.5,"best":0,"bestWc":"","diffWc":false,"bestFed":"","bestDate":"","ig":"","opl":""},
+{"name":"Matthew Chapman","state":"VA","wc":"Out","cat":"Raw","div":"M2","total":400,"best":0,"bestWc":"","diffWc":false,"bestFed":"","bestDate":"","ig":"","opl":""},
 {"name":"Cathy Avery - Mem. Error","state":"--","wc":"Out","cat":"Raw","div":"M2","total":377.5,"best":0,"bestWc":"","diffWc":false,"bestFed":"","bestDate":"","ig":"","opl":""},
 {"name":"Jason Coble","state":"CA","wc":"Out","cat":"Raw","div":"M1","total":735,"best":0,"bestWc":"","diffWc":false,"bestFed":"","bestDate":"","ig":"","opl":""},
+{"name":"Jack Bartlett","state":"ID","wc":"Out","cat":"Raw","div":"J","total":830,"best":0,"bestWc":"","diffWc":false,"bestFed":"","bestDate":"","ig":"","opl":""},
 {"name":"Eli O'Keefe","state":"OH","wc":"Out","cat":"Raw","div":"J","total":517.5,"best":0,"bestWc":"","diffWc":false,"bestFed":"","bestDate":"","ig":"","opl":""},
 {"name":"Marina Tran","state":"LA","wc":"Out","cat":"Raw","div":"J","total":242.5,"best":0,"bestWc":"","diffWc":false,"bestFed":"","bestDate":"","ig":"","opl":""},
+{"name":"Steve Davenport","state":"NE","wc":"Out","cat":"Equipped","div":"M2","total":710,"best":0,"bestWc":"","diffWc":false,"bestFed":"","bestDate":"","ig":"","opl":""},
 {"name":"Nora Keller","state":"FL","wc":"Out","cat":"Equipped","div":"M1","total":0,"best":0,"bestWc":"","diffWc":false,"bestFed":"","bestDate":"","ig":"","opl":""}
 ];
 
@@ -849,7 +849,7 @@ export default function PowerliftingRoster() {
           }}>UNOFFICIAL AGE DIVISION NATIONALS ROSTER</div>
           <div>
             This is an <strong style={{color:"#fff"}}>unofficial</strong> copy of the roster for sorting and filtering purposes.
-            Roster data was pulled on <strong style={{color:"#fff"}}>May 4, 2026 at 7:47 AM UTC</strong> and may not reflect updates made after that time.
+            Roster data was pulled on <strong style={{color:"#fff"}}>May 5, 2026 at 7:18 AM UTC</strong> and may not reflect updates made after that time.
             For the official, up-to-date roster, visit{" "}
             <a href="https://powerlifting-america.com/age-division-nationals-roster/"
               target="_blank" rel="noopener noreferrer"
