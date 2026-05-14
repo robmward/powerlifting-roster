@@ -65,7 +65,7 @@ const ROSTER = [
 {"name":"Sidney Konig Brock","state":"LA","wc":"F-63","cat":"Raw","div":"G","total":380,"best":0,"bestWc":"","diffWc":false,"bestFed":"","bestDate":"","ig":"","opl":""},
 {"name":"Shelly Stettner","state":"MI","wc":"F-63","cat":"Raw","div":"M4","total":342.5,"best":0,"bestWc":"","diffWc":false,"bestFed":"","bestDate":"","ig":"","opl":""},
 {"name":"Jessica Marshall","state":"--","wc":"F-63","cat":"Raw","div":"M3","total":356,"best":0,"bestWc":"","diffWc":false,"bestFed":"","bestDate":"","ig":"","opl":""},
-{"name":"Lynn Pietig","state":"MN","wc":"F-63","cat":"Raw","div":"M3","total":342.5,"best":0,"bestWc":"","diffWc":false,"bestFed":"","bestDate":"","ig":"","opl":""},
+{"name":"Lynn Pietig","state":"--","wc":"F-63","cat":"Raw","div":"M3","total":342.5,"best":0,"bestWc":"","diffWc":false,"bestFed":"","bestDate":"","ig":"","opl":""},
 {"name":"Tiffany Dean","state":"NV","wc":"F-63","cat":"Raw","div":"M3","total":265,"best":0,"bestWc":"","diffWc":false,"bestFed":"","bestDate":"","ig":"","opl":""},
 {"name":"Isabelle Iliev","state":"WA","wc":"F-63","cat":"Raw","div":"M2","total":377.5,"best":0,"bestWc":"","diffWc":false,"bestFed":"","bestDate":"","ig":"","opl":""},
 {"name":"Leah Cruciani","state":"PA","wc":"F-63","cat":"Raw","div":"M2","total":347.5,"best":0,"bestWc":"","diffWc":false,"bestFed":"","bestDate":"","ig":"","opl":""},
@@ -307,7 +307,7 @@ const ROSTER = [
 {"name":"Kamil Iwasiow","state":"FL","wc":"M-66","cat":"Equipped","div":"M1","total":675,"best":0,"bestWc":"","diffWc":false,"bestFed":"","bestDate":"","ig":"","opl":""},
 {"name":"Andrew Gonzalez","state":"TX","wc":"M-66","cat":"Equipped","div":"J","total":600,"best":0,"bestWc":"","diffWc":false,"bestFed":"","bestDate":"","ig":"","opl":""},
 {"name":"Gahel Griner","state":"TX","wc":"M-66","cat":"Equipped","div":"J","total":557.5,"best":0,"bestWc":"","diffWc":false,"bestFed":"","bestDate":"","ig":"","opl":""},
-{"name":"Marcelo Chanaba","state":"AZ","wc":"M-66","cat":"Equipped","div":"J","total":530,"best":0,"bestWc":"","diffWc":false,"bestFed":"","bestDate":"","ig":"","opl":""},
+{"name":"Marcelo Chanaba","state":"--","wc":"M-66","cat":"Equipped","div":"J","total":530,"best":0,"bestWc":"","diffWc":false,"bestFed":"","bestDate":"","ig":"","opl":""},
 {"name":"Isaiah Glasgow","state":"TX","wc":"M-66","cat":"Equipped","div":"J","total":397.5,"best":0,"bestWc":"","diffWc":false,"bestFed":"","bestDate":"","ig":"","opl":""},
 {"name":"Joseph Marceaux","state":"LA","wc":"M-66","cat":"Equipped","div":"J","total":75,"best":0,"bestWc":"","diffWc":false,"bestFed":"","bestDate":"","ig":"","opl":""},
 {"name":"Juventino Zapata Iv","state":"TX","wc":"M-66","cat":"Equipped","div":"J","total":75,"best":0,"bestWc":"","diffWc":false,"bestFed":"","bestDate":"","ig":"","opl":""},
@@ -649,7 +649,7 @@ const ROSTER = [
 {"name":"Lincoln Mickelsen","state":"TX","wc":"M-120","cat":"Raw","div":"J","total":690,"best":0,"bestWc":"","diffWc":false,"bestFed":"","bestDate":"","ig":"","opl":""},
 {"name":"Connor Long","state":"KY","wc":"M-120","cat":"Raw","div":"J","total":682.5,"best":0,"bestWc":"","diffWc":false,"bestFed":"","bestDate":"","ig":"","opl":""},
 {"name":"Reagan Belvin","state":"TX","wc":"M-120","cat":"Raw","div":"J","total":657.5,"best":0,"bestWc":"","diffWc":false,"bestFed":"","bestDate":"","ig":"","opl":""},
-{"name":"Alex Paige","state":"GA","wc":"M-120","cat":"Raw","div":"J","total":637.5,"best":0,"bestWc":"","diffWc":false,"bestFed":"","bestDate":"","ig":"","opl":""},
+{"name":"Alex Paige - Mem. Error","state":"--","wc":"M-120","cat":"Raw","div":"J","total":637.5,"best":0,"bestWc":"","diffWc":false,"bestFed":"","bestDate":"","ig":"","opl":""},
 {"name":"Bennett Montplaisir","state":"OR","wc":"M-120","cat":"Raw","div":"J","total":617.5,"best":0,"bestWc":"","diffWc":false,"bestFed":"","bestDate":"","ig":"","opl":""},
 {"name":"Leonardo Tarango","state":"NM","wc":"M-120","cat":"Raw","div":"J","total":600,"best":0,"bestWc":"","diffWc":false,"bestFed":"","bestDate":"","ig":"","opl":""},
 {"name":"Austin Oakley","state":"IN","wc":"M-120","cat":"Raw","div":"SJ","total":730,"best":0,"bestWc":"","diffWc":false,"bestFed":"","bestDate":"","ig":"","opl":""},
@@ -687,7 +687,7 @@ const ROSTER = [
 {"name":"Carson Crawford","state":"MI","wc":"M-120+","cat":"Raw","div":"J","total":730,"best":0,"bestWc":"","diffWc":false,"bestFed":"","bestDate":"","ig":"","opl":""},
 {"name":"Carlos Olivares","state":"TX","wc":"M-120+","cat":"Raw","div":"J","total":730,"best":0,"bestWc":"","diffWc":false,"bestFed":"","bestDate":"","ig":"","opl":""},
 {"name":"Kevin Garza","state":"TX","wc":"M-120+","cat":"Raw","div":"J","total":707.5,"best":0,"bestWc":"","diffWc":false,"bestFed":"","bestDate":"","ig":"","opl":""},
-{"name":"Andrew Gonzalez - Mem. Error","state":"--","wc":"M-120+","cat":"Raw","div":"SJ","total":715,"best":0,"bestWc":"","diffWc":false,"bestFed":"","bestDate":"","ig":"","opl":""},
+{"name":"Andrew Gonzalez","state":"CA","wc":"M-120+","cat":"Raw","div":"SJ","total":715,"best":0,"bestWc":"","diffWc":false,"bestFed":"","bestDate":"","ig":"","opl":""},
 {"name":"Omar Kalo","state":"CA","wc":"M-120+","cat":"Raw","div":"SJ","total":630,"best":0,"bestWc":"","diffWc":false,"bestFed":"","bestDate":"","ig":"","opl":""},
 {"name":"Robert Keller","state":"FL","wc":"M-120+","cat":"Equipped","div":"M3","total":270,"best":0,"bestWc":"","diffWc":false,"bestFed":"","bestDate":"","ig":"","opl":""},
 {"name":"Douglas Rawson","state":"NV","wc":"M-120+","cat":"Equipped","div":"M2","total":617.5,"best":0,"bestWc":"","diffWc":false,"bestFed":"","bestDate":"","ig":"","opl":""},
@@ -849,7 +849,7 @@ export default function PowerliftingRoster() {
           }}>UNOFFICIAL AGE DIVISION NATIONALS ROSTER</div>
           <div>
             This is an <strong style={{color:"#fff"}}>unofficial</strong> copy of the roster for sorting and filtering purposes.
-            Roster data was pulled on <strong style={{color:"#fff"}}>May 13, 2026 at 7:49 AM UTC</strong> and may not reflect updates made after that time.
+            Roster data was pulled on <strong style={{color:"#fff"}}>May 14, 2026 at 7:42 AM UTC</strong> and may not reflect updates made after that time.
             For the official, up-to-date roster, visit{" "}
             <a href="https://powerlifting-america.com/age-division-nationals-roster/"
               target="_blank" rel="noopener noreferrer"
