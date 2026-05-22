@@ -246,7 +246,7 @@ const ROSTER = [
 {"name":"Cardin Do","state":"MA","wc":"M-59","cat":"Raw","div":"J","total":75,"best":0,"bestWc":"","diffWc":false,"bestFed":"","bestDate":"","ig":"","opl":""},
 {"name":"Brady Price","state":"TX","wc":"M-59","cat":"Raw","div":"J","total":75,"best":0,"bestWc":"","diffWc":false,"bestFed":"","bestDate":"","ig":"","opl":""},
 {"name":"A Phi Le","state":"TX","wc":"M-59","cat":"Raw","div":"J","total":0,"best":0,"bestWc":"","diffWc":false,"bestFed":"","bestDate":"","ig":"","opl":""},
-{"name":"Justin Nguyen","state":"CA","wc":"M-59","cat":"Raw","div":"SJ","total":585.5,"best":0,"bestWc":"","diffWc":false,"bestFed":"","bestDate":"","ig":"","opl":""},
+{"name":"Justin Nguyen - Mem. Error","state":"--","wc":"M-59","cat":"Raw","div":"SJ","total":585.5,"best":0,"bestWc":"","diffWc":false,"bestFed":"","bestDate":"","ig":"","opl":""},
 {"name":"Alex Martinez","state":"TX","wc":"M-59","cat":"Raw","div":"SJ","total":502.5,"best":0,"bestWc":"","diffWc":false,"bestFed":"","bestDate":"","ig":"","opl":""},
 {"name":"Masato Gentle","state":"NV","wc":"M-59","cat":"Raw","div":"SJ","total":482.5,"best":0,"bestWc":"","diffWc":false,"bestFed":"","bestDate":"","ig":"","opl":""},
 {"name":"Tyler Friedman","state":"PA","wc":"M-59","cat":"Raw","div":"SJ","total":460,"best":0,"bestWc":"","diffWc":false,"bestFed":"","bestDate":"","ig":"","opl":""},
@@ -668,7 +668,7 @@ const ROSTER = [
 {"name":"Patrick Northcutt","state":"IL","wc":"M-120+","cat":"Raw","div":"M2","total":712.5,"best":0,"bestWc":"","diffWc":false,"bestFed":"","bestDate":"","ig":"","opl":""},
 {"name":"Nathan Gorham","state":"MD","wc":"M-120+","cat":"Raw","div":"M1","total":860,"best":0,"bestWc":"","diffWc":false,"bestFed":"","bestDate":"","ig":"","opl":""},
 {"name":"Rob Ward","state":"NY","wc":"M-120+","cat":"Raw","div":"M1","total":830,"best":0,"bestWc":"","diffWc":false,"bestFed":"","bestDate":"","ig":"","opl":""},
-{"name":"James Farrior","state":"NY","wc":"M-120+","cat":"Raw","div":"M1","total":827.5,"best":0,"bestWc":"","diffWc":false,"bestFed":"","bestDate":"","ig":"","opl":""},
+{"name":"James Farrior - Mem. Error","state":"--","wc":"M-120+","cat":"Raw","div":"M1","total":827.5,"best":0,"bestWc":"","diffWc":false,"bestFed":"","bestDate":"","ig":"","opl":""},
 {"name":"Khourey Royal","state":"NC","wc":"M-120+","cat":"Raw","div":"M1","total":745,"best":0,"bestWc":"","diffWc":false,"bestFed":"","bestDate":"","ig":"","opl":""},
 {"name":"Henry Coates","state":"OR","wc":"M-120+","cat":"Raw","div":"M1","total":632.5,"best":0,"bestWc":"","diffWc":false,"bestFed":"","bestDate":"","ig":"","opl":""},
 {"name":"Valente Inniss-Thompson","state":"TX","wc":"M-120+","cat":"Raw","div":"M1","total":0,"best":0,"bestWc":"","diffWc":false,"bestFed":"","bestDate":"","ig":"","opl":""},
@@ -849,7 +849,7 @@ export default function PowerliftingRoster() {
           }}>UNOFFICIAL AGE DIVISION NATIONALS ROSTER</div>
           <div>
             This is an <strong style={{color:"#fff"}}>unofficial</strong> copy of the roster for sorting and filtering purposes.
-            Roster data was pulled on <strong style={{color:"#fff"}}>May 21, 2026 at 8:32 AM UTC</strong> and may not reflect updates made after that time.
+            Roster data was pulled on <strong style={{color:"#fff"}}>May 22, 2026 at 8:22 AM UTC</strong> and may not reflect updates made after that time.
             For the official, up-to-date roster, visit{" "}
             <a href="https://powerlifting-america.com/age-division-nationals-roster/"
               target="_blank" rel="noopener noreferrer"
