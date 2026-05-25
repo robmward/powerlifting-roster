@@ -321,7 +321,7 @@ const ROSTER = [
 {"name":"Thomas Ashbrook","state":"CA","wc":"M-74","cat":"Raw","div":"M3","total":485,"best":0,"bestWc":"","diffWc":false,"bestFed":"","bestDate":"","ig":"","opl":""},
 {"name":"Robert Lane","state":"WA","wc":"M-74","cat":"Raw","div":"M2","total":602.5,"best":0,"bestWc":"","diffWc":false,"bestFed":"","bestDate":"","ig":"","opl":""},
 {"name":"Patrick Foster","state":"PA","wc":"M-74","cat":"Raw","div":"M2","total":480,"best":0,"bestWc":"","diffWc":false,"bestFed":"","bestDate":"","ig":"","opl":""},
-{"name":"Donald Bigham","state":"SC","wc":"M-74","cat":"Raw","div":"M2","total":75,"best":0,"bestWc":"","diffWc":false,"bestFed":"","bestDate":"","ig":"","opl":""},
+{"name":"Donald Bigham","state":"HI","wc":"M-74","cat":"Raw","div":"M2","total":75,"best":0,"bestWc":"","diffWc":false,"bestFed":"","bestDate":"","ig":"","opl":""},
 {"name":"Carlos Mata","state":"TX","wc":"M-74","cat":"Raw","div":"M1","total":655,"best":0,"bestWc":"","diffWc":false,"bestFed":"","bestDate":"","ig":"","opl":""},
 {"name":"Michael Haran","state":"MD","wc":"M-74","cat":"Raw","div":"M1","total":642.5,"best":0,"bestWc":"","diffWc":false,"bestFed":"","bestDate":"","ig":"","opl":""},
 {"name":"Lee Rogers","state":"NH","wc":"M-74","cat":"Raw","div":"M1","total":510,"best":0,"bestWc":"","diffWc":false,"bestFed":"","bestDate":"","ig":"","opl":""},
@@ -657,7 +657,7 @@ const ROSTER = [
 {"name":"Carson Frnka","state":"TX","wc":"M-120","cat":"Equipped","div":"SJ","total":735,"best":0,"bestWc":"","diffWc":false,"bestFed":"","bestDate":"","ig":"","opl":""},
 {"name":"Israel Soliz","state":"TX","wc":"M-120","cat":"Equipped","div":"SJ","total":407.5,"best":0,"bestWc":"","diffWc":false,"bestFed":"","bestDate":"","ig":"","opl":""},
 {"name":"Dar’Reyus Scott","state":"LA","wc":"M-120","cat":"Equipped","div":"SJ","total":0,"best":0,"bestWc":"","diffWc":false,"bestFed":"","bestDate":"","ig":"","opl":""},
-{"name":"Corey Jackson - Mem. Error","state":"--","wc":"M-120+","cat":"Raw","div":"G","total":700,"best":0,"bestWc":"","diffWc":false,"bestFed":"","bestDate":"","ig":"","opl":""},
+{"name":"Corey Jackson","state":"MD","wc":"M-120+","cat":"Raw","div":"G","total":700,"best":0,"bestWc":"","diffWc":false,"bestFed":"","bestDate":"","ig":"","opl":""},
 {"name":"Luke Bergeron","state":"LA","wc":"M-120+","cat":"Raw","div":"SA","total":287.5,"best":0,"bestWc":"","diffWc":false,"bestFed":"","bestDate":"","ig":"","opl":""},
 {"name":"Tyler Halpert","state":"GA","wc":"M-120+","cat":"Raw","div":"SO","total":412.5,"best":0,"bestWc":"","diffWc":false,"bestFed":"","bestDate":"","ig":"","opl":""},
 {"name":"Louis Maxwell","state":"GA","wc":"M-120+","cat":"Raw","div":"SO","total":0,"best":0,"bestWc":"","diffWc":false,"bestFed":"","bestDate":"","ig":"","opl":""},
@@ -849,7 +849,7 @@ export default function PowerliftingRoster() {
           }}>UNOFFICIAL AGE DIVISION NATIONALS ROSTER</div>
           <div>
             This is an <strong style={{color:"#fff"}}>unofficial</strong> copy of the roster for sorting and filtering purposes.
-            Roster data was pulled on <strong style={{color:"#fff"}}>May 24, 2026 at 7:49 AM UTC</strong> and may not reflect updates made after that time.
+            Roster data was pulled on <strong style={{color:"#fff"}}>May 25, 2026 at 8:57 AM UTC</strong> and may not reflect updates made after that time.
             For the official, up-to-date roster, visit{" "}
             <a href="https://powerlifting-america.com/age-division-nationals-roster/"
               target="_blank" rel="noopener noreferrer"
