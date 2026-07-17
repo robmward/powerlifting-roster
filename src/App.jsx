@@ -34,8 +34,8 @@ const ROSTER = [
 {"name":"Noemi Blancarte","state":"LA","wc":"F-52","cat":"Equipped","div":"SJ","total":0,"best":0,"bestWc":"","diffWc":false,"bestFed":"","bestDate":"","ig":"","opl":""},
 {"name":"Dora Justice","state":"TX","wc":"F-57","cat":"Raw","div":"M3","total":273.5,"best":0,"bestWc":"","diffWc":false,"bestFed":"","bestDate":"","ig":"","opl":""},
 {"name":"Janice Woerner","state":"NY","wc":"F-57","cat":"Raw","div":"M3","total":75,"best":0,"bestWc":"","diffWc":false,"bestFed":"","bestDate":"","ig":"","opl":""},
-{"name":"Loraine Efron","state":"TX","wc":"F-57","cat":"Raw","div":"M3","total":75,"best":0,"bestWc":"","diffWc":false,"bestFed":"","bestDate":"","ig":"","opl":""},
 {"name":"Kathleen Casper","state":"MN","wc":"F-57","cat":"Raw","div":"M3","total":0,"best":0,"bestWc":"","diffWc":false,"bestFed":"","bestDate":"","ig":"","opl":""},
+{"name":"Loraine Efron","state":"TX","wc":"F-57","cat":"Raw","div":"M3","total":0,"best":0,"bestWc":"","diffWc":false,"bestFed":"","bestDate":"","ig":"","opl":""},
 {"name":"Alana Mcgolrick","state":"CA","wc":"F-57","cat":"Raw","div":"M2","total":335,"best":0,"bestWc":"","diffWc":false,"bestFed":"","bestDate":"","ig":"","opl":""},
 {"name":"Jo Aita","state":"CA","wc":"F-57","cat":"Raw","div":"M2","total":75,"best":0,"bestWc":"","diffWc":false,"bestFed":"","bestDate":"","ig":"","opl":""},
 {"name":"Patria Jimenez","state":"MA","wc":"F-57","cat":"Raw","div":"M1","total":387.5,"best":0,"bestWc":"","diffWc":false,"bestFed":"","bestDate":"","ig":"","opl":""},
@@ -371,7 +371,7 @@ const ROSTER = [
 {"name":"David Mays","state":"OH","wc":"M-74","cat":"Raw","div":"SJ","total":0,"best":0,"bestWc":"","diffWc":false,"bestFed":"","bestDate":"","ig":"","opl":""},
 {"name":"Michael Rodriguez","state":"TX","wc":"M-74","cat":"Equipped","div":"M3","total":643,"best":0,"bestWc":"","diffWc":false,"bestFed":"","bestDate":"","ig":"","opl":""},
 {"name":"Lawson Lillo","state":"LA","wc":"M-74","cat":"Equipped","div":"J","total":787.5,"best":0,"bestWc":"","diffWc":false,"bestFed":"","bestDate":"","ig":"","opl":""},
-{"name":"Logan Edmonds","state":"TX","wc":"M-74","cat":"Equipped","div":"J","total":730,"best":0,"bestWc":"","diffWc":false,"bestFed":"","bestDate":"","ig":"","opl":""},
+{"name":"Logan Edmonds - Mem. Error","state":"--","wc":"M-74","cat":"Equipped","div":"J","total":730,"best":0,"bestWc":"","diffWc":false,"bestFed":"","bestDate":"","ig":"","opl":""},
 {"name":"Will Eckford","state":"TX","wc":"M-74","cat":"Equipped","div":"J","total":0,"best":0,"bestWc":"","diffWc":false,"bestFed":"","bestDate":"","ig":"","opl":""},
 {"name":"Cole Goudeau","state":"LA","wc":"M-74","cat":"Equipped","div":"J","total":0,"best":0,"bestWc":"","diffWc":false,"bestFed":"","bestDate":"","ig":"","opl":""},
 {"name":"Gavin Desalvo","state":"LA","wc":"M-74","cat":"Equipped","div":"SJ","total":545,"best":0,"bestWc":"","diffWc":false,"bestFed":"","bestDate":"","ig":"","opl":""},
@@ -849,7 +849,7 @@ export default function PowerliftingRoster() {
           }}>UNOFFICIAL AGE DIVISION NATIONALS ROSTER</div>
           <div>
             This is an <strong style={{color:"#fff"}}>unofficial</strong> copy of the roster for sorting and filtering purposes.
-            Roster data was pulled on <strong style={{color:"#fff"}}>July 16, 2026 at 7:22 AM UTC</strong> and may not reflect updates made after that time.
+            Roster data was pulled on <strong style={{color:"#fff"}}>July 17, 2026 at 7:16 AM UTC</strong> and may not reflect updates made after that time.
             For the official, up-to-date roster, visit{" "}
             <a href="https://powerlifting-america.com/age-division-nationals-roster/"
               target="_blank" rel="noopener noreferrer"
