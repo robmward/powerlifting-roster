@@ -388,7 +388,7 @@ const ROSTER = [
 {"name":"Jesus Fragoso","state":"ID","wc":"M-83","cat":"Raw","div":"M2","total":647.5,"best":0,"bestWc":"","diffWc":false,"bestFed":"","bestDate":"","ig":"","opl":""},
 {"name":"Thaddeus Say","state":"MD","wc":"M-83","cat":"Raw","div":"M2","total":560,"best":0,"bestWc":"","diffWc":false,"bestFed":"","bestDate":"","ig":"","opl":""},
 {"name":"Garrin Clark","state":"MI","wc":"M-83","cat":"Raw","div":"M2","total":545,"best":0,"bestWc":"","diffWc":false,"bestFed":"","bestDate":"","ig":"","opl":""},
-{"name":"Sikander Aasim - Mem. Error","state":"--","wc":"M-83","cat":"Raw","div":"M2","total":480,"best":0,"bestWc":"","diffWc":false,"bestFed":"","bestDate":"","ig":"","opl":""},
+{"name":"Sikander Aasim","state":"MD","wc":"M-83","cat":"Raw","div":"M2","total":480,"best":0,"bestWc":"","diffWc":false,"bestFed":"","bestDate":"","ig":"","opl":""},
 {"name":"Mfon Akpan","state":"OK","wc":"M-83","cat":"Raw","div":"M2","total":462.5,"best":0,"bestWc":"","diffWc":false,"bestFed":"","bestDate":"","ig":"","opl":""},
 {"name":"Ross Leppala","state":"GA","wc":"M-83","cat":"Raw","div":"M1","total":747.5,"best":0,"bestWc":"","diffWc":false,"bestFed":"","bestDate":"","ig":"","opl":""},
 {"name":"Anthony Perkins","state":"TX","wc":"M-83","cat":"Raw","div":"M1","total":642.5,"best":0,"bestWc":"","diffWc":false,"bestFed":"","bestDate":"","ig":"","opl":""},
@@ -849,7 +849,7 @@ export default function PowerliftingRoster() {
           }}>UNOFFICIAL AGE DIVISION NATIONALS ROSTER</div>
           <div>
             This is an <strong style={{color:"#fff"}}>unofficial</strong> copy of the roster for sorting and filtering purposes.
-            Roster data was pulled on <strong style={{color:"#fff"}}>August 13, 2026 at 6:16 AM UTC</strong> and may not reflect updates made after that time.
+            Roster data was pulled on <strong style={{color:"#fff"}}>August 14, 2026 at 6:13 AM UTC</strong> and may not reflect updates made after that time.
             For the official, up-to-date roster, visit{" "}
             <a href="https://powerlifting-america.com/age-division-nationals-roster/"
               target="_blank" rel="noopener noreferrer"
