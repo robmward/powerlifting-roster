@@ -154,7 +154,7 @@ const ROSTER = [
 {"name":"Amanda Koldjeski - Mem. Error","state":"--","wc":"F-76","cat":"Raw","div":"M1","total":352.5,"best":0,"bestWc":"","diffWc":false,"bestFed":"","bestDate":"","ig":"","opl":""},
 {"name":"Kim Inoshita","state":"HI","wc":"F-76","cat":"Raw","div":"M1","total":0,"best":0,"bestWc":"","diffWc":false,"bestFed":"","bestDate":"","ig":"","opl":""},
 {"name":"Esperanza Delgado","state":"FL","wc":"F-76","cat":"Raw","div":"J","total":528.5,"best":0,"bestWc":"","diffWc":false,"bestFed":"","bestDate":"","ig":"","opl":""},
-{"name":"Ekaterina Sapoznikova - Mem. Error","state":"--","wc":"F-76","cat":"Raw","div":"J","total":457.5,"best":0,"bestWc":"","diffWc":false,"bestFed":"","bestDate":"","ig":"","opl":""},
+{"name":"Ekaterina Sapoznikova","state":"FL","wc":"F-76","cat":"Raw","div":"J","total":457.5,"best":0,"bestWc":"","diffWc":false,"bestFed":"","bestDate":"","ig":"","opl":""},
 {"name":"Zsofia Toth","state":"NJ","wc":"F-76","cat":"Raw","div":"J","total":442.5,"best":0,"bestWc":"","diffWc":false,"bestFed":"","bestDate":"","ig":"","opl":""},
 {"name":"Dayna Bland","state":"NC","wc":"F-76","cat":"Raw","div":"J","total":395,"best":0,"bestWc":"","diffWc":false,"bestFed":"","bestDate":"","ig":"","opl":""},
 {"name":"Daisey Fields","state":"GA","wc":"F-76","cat":"Raw","div":"J","total":387.5,"best":0,"bestWc":"","diffWc":false,"bestFed":"","bestDate":"","ig":"","opl":""},
@@ -251,7 +251,7 @@ const ROSTER = [
 {"name":"Masato Gentle","state":"NV","wc":"M-59","cat":"Raw","div":"SJ","total":482.5,"best":0,"bestWc":"","diffWc":false,"bestFed":"","bestDate":"","ig":"","opl":""},
 {"name":"Tyler Friedman","state":"PA","wc":"M-59","cat":"Raw","div":"SJ","total":460,"best":0,"bestWc":"","diffWc":false,"bestFed":"","bestDate":"","ig":"","opl":""},
 {"name":"Grayson Manning","state":"IA","wc":"M-59","cat":"Raw","div":"SJ","total":0,"best":0,"bestWc":"","diffWc":false,"bestFed":"","bestDate":"","ig":"","opl":""},
-{"name":"Daniel Elliott","state":"TX","wc":"M-59","cat":"Raw","div":"SJ","total":0,"best":0,"bestWc":"","diffWc":false,"bestFed":"","bestDate":"","ig":"","opl":""},
+{"name":"Daniel Elliott - Mem. Error","state":"--","wc":"M-59","cat":"Raw","div":"SJ","total":0,"best":0,"bestWc":"","diffWc":false,"bestFed":"","bestDate":"","ig":"","opl":""},
 {"name":"Zaiden Olvera","state":"TX","wc":"M-59","cat":"Raw","div":"SJ","total":0,"best":0,"bestWc":"","diffWc":false,"bestFed":"","bestDate":"","ig":"","opl":""},
 {"name":"Bodie Lacoe","state":"PA","wc":"M-59","cat":"Equipped","div":"J","total":623,"best":0,"bestWc":"","diffWc":false,"bestFed":"","bestDate":"","ig":"","opl":""},
 {"name":"Jesus Martinez","state":"TX","wc":"M-59","cat":"Equipped","div":"J","total":412.5,"best":0,"bestWc":"","diffWc":false,"bestFed":"","bestDate":"","ig":"","opl":""},
@@ -276,7 +276,7 @@ const ROSTER = [
 {"name":"Enzo Vickroy","state":"CA","wc":"M-66","cat":"Raw","div":"J","total":555,"best":0,"bestWc":"","diffWc":false,"bestFed":"","bestDate":"","ig":"","opl":""},
 {"name":"Austin Harris - Mem. Error","state":"--","wc":"M-66","cat":"Raw","div":"J","total":460,"best":0,"bestWc":"","diffWc":false,"bestFed":"","bestDate":"","ig":"","opl":""},
 {"name":"Nathan Lovemore","state":"LA","wc":"M-66","cat":"Raw","div":"J","total":75,"best":0,"bestWc":"","diffWc":false,"bestFed":"","bestDate":"","ig":"","opl":""},
-{"name":"Timothy Ochoa","state":"CA","wc":"M-66","cat":"Raw","div":"J","total":0,"best":0,"bestWc":"","diffWc":false,"bestFed":"","bestDate":"","ig":"","opl":""},
+{"name":"Timothy Ochoa - Mem. Error","state":"--","wc":"M-66","cat":"Raw","div":"J","total":0,"best":0,"bestWc":"","diffWc":false,"bestFed":"","bestDate":"","ig":"","opl":""},
 {"name":"Hayden Wolf","state":"WI","wc":"M-66","cat":"Raw","div":"J","total":0,"best":0,"bestWc":"","diffWc":false,"bestFed":"","bestDate":"","ig":"","opl":""},
 {"name":"Tanner Jacobi","state":"MO","wc":"M-66","cat":"Raw","div":"J","total":0,"best":0,"bestWc":"","diffWc":false,"bestFed":"","bestDate":"","ig":"","opl":""},
 {"name":"Hassan Coleman","state":"GA","wc":"M-66","cat":"Raw","div":"J","total":0,"best":0,"bestWc":"","diffWc":false,"bestFed":"","bestDate":"","ig":"","opl":""},
@@ -849,7 +849,7 @@ export default function PowerliftingRoster() {
           }}>UNOFFICIAL AGE DIVISION NATIONALS ROSTER</div>
           <div>
             This is an <strong style={{color:"#fff"}}>unofficial</strong> copy of the roster for sorting and filtering purposes.
-            Roster data was pulled on <strong style={{color:"#fff"}}>October 4, 2026 at 10:56 AM UTC</strong> and may not reflect updates made after that time.
+            Roster data was pulled on <strong style={{color:"#fff"}}>October 5, 2026 at 12:04 PM UTC</strong> and may not reflect updates made after that time.
             For the official, up-to-date roster, visit{" "}
             <a href="https://powerlifting-america.com/age-division-nationals-roster/"
               target="_blank" rel="noopener noreferrer"
